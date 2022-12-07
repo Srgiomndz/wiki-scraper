@@ -10,11 +10,11 @@ This is the resulting JSON structure:
 
 ``` yaml
 {
-      "name": "Chaunsa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chaunsa.JPG/120px-Chaunsa.JPG",
-      "origin": "India, Pakistan",
-      "notes": "Chaunsa (also referred to as 'Chausa') is a pale yellow, slightly green succulent variety of mango when ripe. Closer to its ripening, the mango skin will be soft to touch and will appear wrinkly. Chaunsa is harvested in the summer months (June–September)."
-   },
+    "name": "Chaunsa",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chaunsa.JPG/120px-Chaunsa.JPG",
+    "origin": "India, Pakistan",
+    "notes": "Chaunsa (also referred to as 'Chausa') is a pale yellow, slightly green succulent variety of mango when ripe. Closer to its ripening, the mango skin will be soft to touch and will appear wrinkly. Chaunsa is harvested in the summer months (June–September)."
+}
 ```
 
 
