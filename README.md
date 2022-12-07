@@ -1,4 +1,4 @@
-# Wiki-scraper
+# wiki-scraper
 
 I created this small scraping script so that I had a larger amount of data to display in my mango-api! While this only works for a specific wikipedia page it serves as a boilerplate for Puppeteer and can easily be built upon or adapted to your needs.
 
