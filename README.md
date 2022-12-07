@@ -44,7 +44,7 @@ The JSON file and jpg will be replaced each time the script is ran.
 
 ## Optimizations
 
-The photo url that is collected with this script is not a link to the largest photo available from wikipedia. My next step to imporve this script is to make sure that the largest and highest resolution photo is gathered.
+The photo url that is collected with this script is not a link to the largest photo available from wikipedia. My next step to improve this script is to make sure that the largest and highest resolution photo is gathered or better yet an array of options.
 
 
 
