@@ -1,23 +1,29 @@
-# calorie-app
-The idea behind creating this calorie counter/tracker is to have a self updating TDEE. 
+# Wiki-scraper
 
+I created this small scraping script so that I had a larger amount of data to display in my mango-api! While this only works for a specific wikipedia page it serves as a boilerplate for Puppeteer and can easily be built upon or adapted to your needs.
+
+
+name, image, origin, and notes are gathered for each mango in the list and exported to a JSON file.
+
+
+   
 **Link to project:** /
 
 ![alt tag](http://placecorgi.com/1200/650)
 
 ## How It's Made:
 
-**Tech used:** Node.js, Express.js, HTML, CSS,
+**Tech used:** Node.js, Puppeteer
 
 
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+The photo url that is collected with this script is not a link to the largest photo available from wikipedia. My next step to imporve this script is to make sure that the largest and highest resolution photo is gathered.
+
+
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
 
 
