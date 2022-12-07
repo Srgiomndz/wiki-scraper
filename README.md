@@ -1,6 +1,6 @@
 # wiki-scraper
 
-I created this small scraping script so that I had a larger amount of data to serve in my mango-api! While this only works for a specific wikipedia page it serves as a boilerplate for Puppeteer and can easily be built upon or adapted to your needs.
+I created this script so that I had a larger amount of data to serve in my mango-api! While this only works for a specific wikipedia page it serves as a boilerplate for Puppeteer and can easily be built upon or adapted to your needs.
 
 
 name, image, origin, and notes are gathered for each mango in the list and exported to a JSON file. A jpg of the webpage that was scraped will also be saved to your system. 
@@ -33,5 +33,5 @@ The photo url that is collected with this script is not a link to the largest ph
 
 ## Lessons Learned:
 
-
+Creating this showed me how much fun web scraping can be and the endless ways one can use Puppeteer.
 
