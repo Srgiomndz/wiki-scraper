@@ -8,7 +8,7 @@ name, image, origin, and notes are gathered for each mango in the list and expor
 
 This is the resulting JSON structure: 
 
-``` javascript
+``` elixir
 {
       "name": "Chaunsa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chaunsa.JPG/120px-Chaunsa.JPG",
