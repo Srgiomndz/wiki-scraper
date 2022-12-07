@@ -17,6 +17,14 @@ This is the resulting JSON structure:
 }
 ```
 
+## Installation:
+
+1. Clone repostiory
+2. npm install
+3. node index.js
+4. DONE!
+
+The JSON file and jpg will be replaced each time the script is ran.
 
 
 ## How It's Made:
