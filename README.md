@@ -6,10 +6,6 @@ I created this small scraping script so that I had a larger amount of data to se
 name, image, origin, and notes are gathered for each mango in the list and exported to a JSON file. A jpg of the webpage that was scraped will also be saved to your system. 
 
 
-   
-
-
-
 
 ## How It's Made:
 
