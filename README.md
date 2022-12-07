@@ -17,6 +17,23 @@ This is the resulting JSON structure:
 }
 ```
 
+## Installation:
+
+1. Clone the repository
+	```    
+	$ git clone https://github.com/Srgiomndz/wiki-scraper.git
+	```
+ 
+ 2. Install the requirements
+	```
+	$ npm install
+	```
+ 4. run script
+    ```
+    $ node index.js
+    ```
+
+The JSON file and jpg will be replaced each time the script is ran.
 
 
 ## How It's Made:
@@ -27,7 +44,7 @@ This is the resulting JSON structure:
 
 ## Optimizations
 
-The photo url that is collected with this script is not a link to the largest photo available from wikipedia. My next step to imporve this script is to make sure that the largest and highest resolution photo is gathered.
+The photo url that is collected with this script is not a link to the largest photo available from wikipedia. My next step to improve this script is to make sure that the largest and highest resolution photo is gathered or better yet an array of options.
 
 
 
