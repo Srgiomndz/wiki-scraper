@@ -1,13 +1,13 @@
-const puppeteer = require('puppeteer') // requiring puppeteer
-const fs = require('fs') // requiring the file system node module
+const puppeteer = require('puppeteer') // Since we will be using Puppeteer, lets require it!
+const fs = require('fs') // We will be making use of the fs node module to save a json file and screenshot to our system
 
 const scrap = async () => {
-   const browser = await puppeteer.launch({ headless: true }) //browser initiate
-   const page = await browser.newPage() // opening a new blank page
-   await page.goto('https://en.wikipedia.org/wiki/List_of_mango_cultivars', {
-      waitUntil: 'domcontentloaded',
-   }) // navigate to url and wait until page loads completely
+   const browser = await puppeteer.launch({ headless: true }) //Opens a Chromium browser that Puppeteer will be controlling. If headless is false, then when running the script you will see the Chromium browser open on your screen.
+   const page = await browser.newPage() // Opens a new blank page
+   await page.goto('https://en.wikipedia.org/wiki/List_of_mango_cultivars', { // navigate to url and wait until page loads completely
 
+      waitUntil: 'domcontentloaded',
+   })
    const recordList = await page.$$eval(
       'div#mw-content-text > div.mw-parser-output > table > tbody > tr',
       (trows) => {
@@ -33,7 +33,7 @@ const scrap = async () => {
       }
    )
 
-   await page.screenshot({ path: 'screenshots/wikipedia.png', fullPage: true }) //screenshot of page, omitting fullPage will screenshot a photo of the default size of the chromium browser.
+   await page.screenshot({ path: 'screenshots/wikipedia.png', fullPage: true }) //screenshot of page, setting fullPage: false will screenshot a photo of the default size of the chromium browser.
    browser.close()
 
    fs.writeFile('mango.json', JSON.stringify(recordList, null, 2), (err) => {
@@ -46,3 +46,6 @@ const scrap = async () => {
 }
 
 scrap()
+
+
+// #TODO finish commenting out this file!
