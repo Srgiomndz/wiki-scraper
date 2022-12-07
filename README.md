@@ -21,7 +21,7 @@ This is the resulting JSON structure:
 
 1. Clone the repository
 	```    
-	$ git clone 
+	$ git clone https://github.com/Srgiomndz/wiki-scraper.git
 	```
  
  2. Install the requirements
