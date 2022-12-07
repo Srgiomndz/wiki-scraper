@@ -7,9 +7,9 @@ name, image, origin, and notes are gathered for each mango in the list and expor
 
 
    
-**Link to project:** /
 
-![alt tag](http://placecorgi.com/1200/650)
+
+
 
 ## How It's Made:
 
